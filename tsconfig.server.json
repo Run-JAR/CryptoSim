@@ -2,8 +2,6 @@
   "include": ["server/**/*", "shared/**/*"],
   "exclude": ["node_modules", "dist", "build", "**/*.test.ts"],
   "compilerOptions": {
-    "incremental": true,
-    "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
     "noEmit": false,
     "outDir": "dist",
     "module": "ESNext",
