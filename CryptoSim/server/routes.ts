@@ -3,7 +3,7 @@ import { createServer, type Server } from "http";
 import { WebSocketServer, WebSocket } from "ws";
 import { storage } from "./storage";
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "supersecret";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "admin123";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   const httpServer = createServer(app);
